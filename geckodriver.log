@@ -1,0 +1,36 @@
+1503999027842	geckodriver	INFO	Listening on 127.0.0.1:60863
+1503999029830	mozprofile::profile	INFO	Using profile path C:\Users\pc\AppData\Local\Temp\rust_mozprofile.Hbw7sgbaUoix
+1503999029835	geckodriver::marionette	INFO	Starting browser C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+1503999029872	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60875
+1503999030352	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript warning: resource://addoninstaller/log4moz.js, line 489: Date.prototype.toLocaleFormat is deprecated; consider using Intl.DateTimeFormat instead
+1503999033364	addons.xpi	WARN	Add-on tabtweak@mozillaonline.com is not compatible with application version.
+1503999033365	addons.xpi	WARN	Add-on tabtweak@mozillaonline.com is not compatible with application version.
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+[GPU 188012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 190904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.panel.openPopup is not a function
+Full stack: PopupNotifications_showPanel/<@resource://gre/modules/PopupNotifications.jsm:1026:7
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+observe@resource://gre/modules/AsyncShutdown.jsm:531:9
+
+*************************
+[GPU 188012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 188012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 219: TypeError: log is undefined
+[Parent 190904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 177804] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 177804] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503999040295	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
